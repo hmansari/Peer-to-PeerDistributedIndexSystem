@@ -29,9 +29,6 @@ Conditions while running:
 I have specified the file name that you can wish to download as "rfc5000.txt" and attached with the source code in the zip file. You may change the text file by changing the path as mentioned in the code of "REG_Server.java". 
 Each peer will download the file to a specific folder. I have mentioned a specific destination path of the folder which can be changed according to the user. It can be done on "REG_Server.java"
 
-For instance, in the test case:-
->After adding rfc5000 by a peer, I have specified "/afs/unity.ncsu.edu/users/h/hmansari/IP_Project_new/rfc5000.txt" as the path of the file that needs to be download.
->I have specified "/afs/unity.ncsu.edu/users/h/hmansari/IP_Project_new/src" as the destination path where the file will be downloaded.
 
 Running the Project :
 
