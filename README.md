@@ -16,11 +16,15 @@ Compilation Of the Projects.
 Compilation and Running If using terminal:
 
 For Registration Server:
+
 make     					            ---compiling file
+
 java PC_Server           			---executing 
 
 For Every Peer:
+
 make          				       	---compiling file (Don't write, if already done at server terminal)
+
 java P2P_Client      	        ---executing file
 
 If using NetBeans/Eclipse Please directly run as Java Project.
@@ -51,31 +55,49 @@ Date: <Date of registration>
 8. Now, the client side will show "Enter Your Request". In order to enter the request, you need to follow the format below:-
 
 >>To ADD an RFC-
+
 Enter: "ADD <rfc_no.> <rfc_name.txt>"
+
 The RFC will be added to that client.
 
 >>To SEARCH an RFC-
+
 Enter: "LOOKUP <rfc_no.> <rfc_name.txt>"
-It will show the client details which has the RFC you are looking for. If the RFC will not be found, "404 Not Found" will be displayed.
+
+It will show the client details which has the RFC you are looking for. If the RFC will not be found, "404 Not Found" will be 
+
+displayed.
 
 >>To SEARCH all the RFCs- 
+
 Enter: "LISTALL"
+
 It will show all the clients with their respective RFCs. 
 
 >>To SEARCH active peers-
+
 Enter: "PQUERY"
+
 It will show first active peer with the cookie value, port number, and date of registration.  
+
 Again Enter: "PQUERY"
+
 It will show next active peer with the details and so on.
+
 The server side will display the total number of peers registered.
 
 >>To DOWNLOAD an RFC-
+
 First you can change the path of the file to be receieved and to be sent.
+
 Enter: "DOWNLOAD"
+
 It will automatically the specific RFC and will display " Download complete" on the client side.
  
 >>To LEAVE-
+
 Enter: "LEAVE"
+
 The server will automatically close the socket.
 
 
